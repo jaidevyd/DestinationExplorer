@@ -1,0 +1,144 @@
+<!--[if lt IE 9]>
+Reference:
+http://www.free-css.com/free-css-templates/page175/journey
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Destination Explorer</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/sForm.js"></script>
+<script src="js/jquery.jqtransform.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'random',
+        pagination: false, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: true,
+        waitBannerAnimation: false,
+        progressBar: false
+    });
+    $("#tabs").tabs();
+    $().UItoTop({
+        easingType: 'easeOutQuart'
+    });
+});
+</script>
+</head>
+
+<body class="page1">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/Picture1.png" alt="Image cannot be loaded"></a></h1>
+      <div class="clear"></div>
+    </div>
+    <div class="menu_block">
+      <nav>
+        <ul class="sf-menu">
+		  <li>.</li>
+          <li class="with_ul"><a href="#tabs">About</a></li>
+          <li class="with_ul"><a href="#tabs">Contact us</a></li>         
+          
+          <li><a href="login.php">Login</a></li>
+          <li><a href="register.php">Register</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+<div class="main">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="slider-relative">
+        <div class="slider-block">
+          <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
+            <ul class="items">
+              <li><img src="images/slide.jpg" alt="Image cannot be loaded">
+                <div class="banner">
+                  <div>THERE ARE PLENTY OF PLACES</div>
+                  <br>
+                  <span> that are worth seeing</span> </div>
+              </li>
+              <li><img src="images/slide1.jpg" alt="Image cannot be loaded"></li>
+              <li><img src="images/slide2.jpg" alt="Image cannot be loaded"></li>
+              <li><img src="images/slide3.jpg" alt="Image cannot be loaded"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3>&nbsp</h3>
+      </div>
+      <div class="grid_7">
+        <div id="tabs">
+          <ul>
+            <div class="newsletter_title">About Us</div>
+            
+          </ul>
+          <div class="clear"></div>
+            <div class="extra_wrapper">
+              <div class="text1" align = "justify">This website is designed by us for the course ILS-Z 532 Info Architecture for Web under the guidance of our Instructor Ali Ghazinejad during Fall 2017. The idea behind this website is to help users find travel destinations of their choice OR post destinations they visited and think worthy of mentioning here. </div>
+              <div class="clear "></div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="grid_5">
+        <div class="newsletter_title">Contact Us</div>
+          <div class="n_container">
+			<div class="text1">
+			  <div>Email ID:</div>
+			  <span>jyekkard@iu.edu,</span>
+			  <span>vinitab@iu.edu</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br><br>
+			  <div>Phone:</div>
+			  <span>+1 812-272-3709,</span>
+			  <span>+1 812-272-3709</span>
+			</div>
+        </div>
+      </div>
+	</div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      
+      <div class="copy"> Credits &copy; | <a href="#">Privacy Policy</a> | Design by: <a href="http://www.free-css.com/free-css-templates/page175/journey">free-css-templates.com</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+
+</body>
+</html>
